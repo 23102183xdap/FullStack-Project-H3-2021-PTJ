@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace API.CDMRS.Models
 {
-    public class CategoryModel
+    public class CategoryModel : BaseModel
     {
+        [Required]
+        public string Name { get; set; }
     }
 }

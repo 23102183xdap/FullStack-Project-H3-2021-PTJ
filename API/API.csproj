@@ -8,4 +8,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CDMRS\Controllers\" />
+    <Folder Include="CDMRS\Database\" />
+    <Folder Include="CDMRS\Database\Context\" />
+    <Folder Include="CDMRS\Models\" />
+    <Folder Include="CDMRS\Repositories\Interfaces\" />
+    <Folder Include="CDMRS\Services\" />
+  </ItemGroup>
+
 </Project>

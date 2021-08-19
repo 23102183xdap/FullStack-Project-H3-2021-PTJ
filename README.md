@@ -11,7 +11,7 @@
 
 | Frontend Tasks | Status        | Done  |
 | -------------  |:-------------:| -----:|
-| Navbar         | Not started   |  ❌   |
+| Navbar         | Not started   |  ✅   |
 | Frontpage      | Not started   |  ❌   |
 | Productpage    | Not started   |  ❌   |
 | Categorypage   | Not started   |  ❌   |

@@ -2,7 +2,7 @@
 
 namespace API.CDMRS.Models
 {
-    public class BasketItem : BaseModel
+    public class BasketItemModel : BaseModel
     {
         [Required]
         public BasketModel Basket { get; set; }

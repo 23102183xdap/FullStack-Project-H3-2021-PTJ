@@ -11,9 +11,9 @@ namespace API.CDMRS.Repositories.Interfaces
 
         Task<CategoryModel> Get(int id);
 
-        Task<CategoryModel> Create(CategoryModel tag);
+        Task<CategoryModel> Create(CategoryModel category);
 
-        Task<CategoryModel> Update(int id, CategoryModel tag);
+        Task<CategoryModel> Update(int id, CategoryModel category);
 
         Task<CategoryModel> Delete(int id);
     }

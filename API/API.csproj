@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <Folder Include="CDMRS\Controllers\" />
-    <Folder Include="CDMRS\Services\" />
+    <Folder Include="CDMRS\Services\Classes\" />
   </ItemGroup>
 
 </Project>

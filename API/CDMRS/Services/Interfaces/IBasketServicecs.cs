@@ -1,11 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+
+using API.CDMRS.Models;
 
 namespace API.CDMRS.Services.Interfaces
 {
-    interface IBasketServicecs
+    public interface IBasketServicecs
     {
+        Task<List<BasketModel>> GetAll();
+
+        Task<BasketModel> Get(int id);
+
+        Task<BasketModel> Create(BasketItemModel basketItem);
+
+        Task<BasketModel> Update(int id, BasketItemModel basketItem);
+
+        Task<BasketModel> Delete(int id);
+
     }
 }

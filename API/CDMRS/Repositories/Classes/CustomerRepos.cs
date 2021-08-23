@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -18,7 +19,7 @@ namespace API.CDMRS.Repositories.Classes
             _context = context;
         }
 
-        public async Task<CustomerModel> Create(Customer customer)
+        public async Task<CustomerModel> Create(CustomerModel customer)
         {
             customer.CreatedAt = DateTime.Now;
             _context.Customers.Add(customer);

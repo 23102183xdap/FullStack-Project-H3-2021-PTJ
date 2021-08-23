@@ -7,16 +7,16 @@ namespace API.CDMRS.Repositories.Interfaces
 {
     public interface IBasketItemRepos
     {
-        Task<List<BasketItem>> GetAll();
+        Task<List<BasketItemModel>> GetAll();
 
-        Task<BasketItem> Get(int id);
+        Task<BasketItemModel> Get(int id);
 
-        Task<BasketItem> Create(BasketItem basketItem);
+        Task<BasketItemModel> Create(BasketItemModel basketItem);
 
-        Task<BasketItem> Update(int id, BasketItem basketItem);
+        Task<BasketItemModel> Update(int id, BasketItemModel basketItem);
 
-        Task<BasketItem> Delete(int id);
+        Task<BasketItemModel> Delete(int id);
 
-        Task<List<BasketItem>> GetByBasket(int id);
+        Task<List<BasketItemModel>> GetByBasket(int id);
     }
 }

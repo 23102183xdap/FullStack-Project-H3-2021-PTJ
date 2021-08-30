@@ -1,16 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+using API.CDMRS.Models;
+using API.CDMRS.Services.Interfaces;
+
 namespace API.CDMRS.Controllers
 {
-    public class CategoryController : Controller
+    [ApiController]
+    [Route("api/category")]
+    public class CategoryController : ControllerBase
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        private readonly ICategoryService _categoryService;
+
+        public 
     }
 }

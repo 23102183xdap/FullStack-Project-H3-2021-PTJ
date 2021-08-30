@@ -23,7 +23,7 @@
 
 | Backend Tasks | Status        | Done  |
 | ------------- |:-------------:| -----:|
-| Controllers   | Not started   |  ❌   |
+| Controllers   | Not started   |  ✅   |
 | Repositories  | Not started   |  ✅   |
 | Services      | Not started   |  ✅   |
 | Database      | Not started   |  ❌   |
